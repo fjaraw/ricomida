@@ -1,0 +1,83 @@
+/*elementos del navbar*/
+.navbar-brand {
+    color: white;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar-brand a {
+    color: white;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*primera fila de body*/
+/*
+#img-principal {
+    height: 50%;
+    display: inline-block;
+}*/
+/*linea horizontal*/
+.header-text {
+    margin: 3rem;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid black;
+}
+
+.subheader-text {
+    margin: 1rem 0 0 3rem;
+}
+
+.botones {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+/*
+hr {
+    width: 5rem;
+}*/
+/*carrusel*/
+.cuatro-fotos img {
+    width: 15rem;
+}
+
+/*receta*/
+.ingredientes li {
+    list-style-type: none;
+}
+
+.linea-2 {
+    margin: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem solid black;
+    width: 9rem;
+}
+
+.ol-pad li {
+    padding-bottom: 1.5rem;
+}
+
+hr {
+    opacity: 100%;
+}
+
+/*se aplica de 1024 para abajo*/
+@media (max-width:1024px) {
+    .cuatro-fotos img {
+        width: 10rem;
+    }
+}
+
+/* Se aplica de 426 hacia arriba */
+@media (min-width: 426px) {
+    header img {
+        max-width: 10rem;
+    }
+}
